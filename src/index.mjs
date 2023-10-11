@@ -233,6 +233,7 @@ const num4 = 100;
 const fee2 = num4 || "金額未設定です";
 console.log(fee2);
 
+// && は左側がtrueなら右側を返す
 const num5 = null;
 const fee3 = num5 && "なにか設定されました";
 console.log(fee3);
